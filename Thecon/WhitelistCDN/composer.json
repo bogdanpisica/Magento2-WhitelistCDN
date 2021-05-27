@@ -1,0 +1,23 @@
+{
+    "name": "thecon/module-whitelistcdn",
+    "description": "Grant permissions to CDN files.",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Thecon",
+            "website": "https://thecon.ro",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Thecon\\WhitelistCDN\\": ""
+        }
+    }
+}
